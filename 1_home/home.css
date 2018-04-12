@@ -1,0 +1,49 @@
+#section-1 {
+  width: 100%;
+  height: 90%;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.logo-rond {
+  position: absolute;
+  top: 2%; left: 30%;
+  width: 40%;
+  -webkit-transition: all 3s;
+}
+
+#logo4 {
+  position: absolute;
+  top: 2%;
+  left: -60%;
+  width: 40%;
+  -webkit-transition: all 2s;
+  z-index: 1;
+}
+
+#logo5 {
+  position: absolute;
+  top: 2%;
+  left: 30%;
+  width: 40%;
+  -webkit-transition: all 3s;
+  opacity: 0;
+}
+
+#scroll {
+  position: absolute;
+  top: 80%;
+  left: 48.5%;
+  width: 3%;
+  animation-name: scroll;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 3s;
+}
+
+@keyframes scroll {
+  to { transform: translateY(10px);}
+}

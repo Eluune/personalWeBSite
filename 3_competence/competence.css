@@ -1,0 +1,80 @@
+#section-3 {
+  width: 100%;
+  height: 100%;
+}
+
+.competence {
+  display: flex;
+  width: 100%;
+}
+
+.competence-gauche {
+  width: 50%;
+  color: RGB(240,240,240);
+  font-size: 3vw;
+  margin: 50px 0px 0px 50px;
+}
+
+.competence-droite {
+  width: 50%;
+  color: RGB(240,240,240);
+}
+
+.competence-contenu {
+  padding-top: 200px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.competence-titre {
+  margin-top: 100px;
+  width: 90%;
+  color: RGB(240,240,240);
+}
+
+.competence-texte {
+  width: 90%;
+  height: 200px;
+  background-color: RGB(50,50,50);
+  border-radius: 10px;
+}
+
+.comp-texte {
+  display: none;
+  padding: 15px;
+  font-size: 1.2vw;
+  text-align: justify;
+}
+
+.comp-titre {
+  display: none;
+  font-size: 1.5vw;
+  padding-left: 20px;
+}
+
+#c-0 {
+  text-align: center;
+}
+
+.circle {
+	width: 12vw;
+  height: 170px;
+  margin-top: 50px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  vertical-align: center;
+  color: RGB(240,240,240);
+  cursor: pointer;
+}
+
+.circle span {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2vw;
+}
