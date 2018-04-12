@@ -1,7 +1,6 @@
 <div id="section-4">
 
   <div class="portfolio">
-
     <div class="portfolio-titre-1">
       Interface
       <hr>
@@ -17,7 +16,6 @@
   </div>
 
   <div class="portfolio">
-
     <div class="portfolio-titre-2">
       MarioKart Processing
       <hr>
@@ -25,7 +23,7 @@
 
     <div class="portfolio-texte-2">
       <p>
-        Processing est un logiciel de programmation sur lequel il est facile d'afficher des formes et des images. Issu du Java, c'est le langage parfait pour apprendre comme le codage fonctionne. Je me suis mis en tête de pousser l'expérience en allant jusqu'à la création d'un jeu de l'oie sur la base du célèbre jeu MarioKart. Mais rien ne vaut mieux que d'y <a href="#">jouer</a> par vous même pour vous rendre compte ! :)
+        Processing est un logiciel de programmation sur lequel il est facile d'afficher des formes et des images. Issu du Java, c'est le langage parfait pour apprendre comment fonctionne le codage. Je me suis mis en tête de pousser l'expérience en allant jusqu'à la création d'un jeu de l'oie sur la base du célèbre jeu MarioKart. Mais rien ne vaut mieux que d'y <a href="#">jouer</a> par vous même pour vous rendre compte ! :)
       </p>
     </div>
 

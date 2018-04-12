@@ -9,6 +9,7 @@
   position: fixed;
   text-align: right;
   z-index: 100;
+  overflow-y: hidden;
 }
 
 #nav ul li {

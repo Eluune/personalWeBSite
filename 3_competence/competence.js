@@ -28,7 +28,7 @@ $(document).ready(function()
 $(document).ready(function(){
   var progressBarOptions = {
   	startAngle: 0,
-  	size: 200,
+  	size: 50,
       value: 0.75,
       fill: {
   		color: '#ffa500'

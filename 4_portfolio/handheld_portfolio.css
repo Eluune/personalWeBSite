@@ -1,0 +1,49 @@
+#section-4 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: visible;
+  padding-top: 50px;
+}
+
+.portfolio {
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-titre-1, .portfolio-titre-2 {
+  text-align: center;
+  color: RGB(240,240,240);
+  font-size: 20px;
+  order: 0;
+}
+
+.portfolio-image-1, .portfolio-image-2 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  order: 1;
+}
+
+.portfolio-texte-1, .portfolio-texte-2 {
+  order: 2;
+  color: RGB(240,240,240);
+  text-align: justify;
+  font-size: 16px;
+  padding: 15px;
+}
+
+#interface {
+  background-image: url(../images/interface.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+#mario {
+  background-image: url(../images/mario.png);
+  background-size: cover;
+  background-position: center;
+}

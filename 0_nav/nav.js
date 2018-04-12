@@ -1,7 +1,7 @@
 $(document).ready(function()
 {
   // slide depuis le menu
-  $("#section-0 div ul li a").click(function()
+  $("#section-0 a").click(function()
   {
     var pos = $("body").scrollTop();
     var clicked = $(this).attr("id"); // S1 S2 S3 ...
@@ -14,6 +14,9 @@ $(document).ready(function()
 
     return false;
   });
+
+
+
 
   // change le css du menu en fonction de la position du scroll
   $("body").scroll(function()

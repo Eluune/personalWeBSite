@@ -17,7 +17,7 @@
         <table>
           <tr>
             <th>Nom</th>
-            <td>Petit (mais puissant)</td>
+            <td>Petit <span id="nom">(mais puissant)</span></td>
           </tr>
         </table>
         <hr>
@@ -32,7 +32,7 @@
 
         <table>
           <tr>
-            <th>E-mail</th>
+            <th>Mail</th>
             <td>alois.petit@gmail.com</td>
           </tr>
         </table>
@@ -48,7 +48,7 @@
 
         <table>
           <tr>
-            <td><button id="presentation-bouton" type="button" name="button">VOIR MON CV</button></td>
+            <td id="presentation-btn-td"><button id="presentation-bouton" type="button" name="button">VOIR MON CV</button></td>
           </tr>
         </table>
       </div>

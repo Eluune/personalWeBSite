@@ -1,56 +1,43 @@
 #section-3 {
   width: 100%;
-  height: auto;
+  min-height: 50%;
 }
 
 .competence {
-  display: flex;
   width: 100%;
 }
 
 .competence-gauche {
-  width: 50%;
-  color: RGB(240,240,240);
-  font-size: 3vw;
-  margin: 100px 0px 0px 50px;
+  display: none;
 }
 
 .competence-droite {
-  width: 50%;
+  width: 100%;
   color: RGB(240,240,240);
-  padding-top: 150px;
 }
 
 .competence-contenu {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .competence-titre {
-  margin-top: 100px;
   width: 90%;
   color: RGB(240,240,240);
 }
 
-.competence-texte {
-  width: 90%;
-  height: 200px;
-  background-color: RGB(50,50,50);
-  border-radius: 10px;
-}
-
-.comp-t {
+.comp-texte {
   display: none;
   padding: 15px;
-  font-size: 1.2vw;
+  font-size: 16px;
   text-align: justify;
 }
 
 .comp-titre {
   display: none;
-  font-size: 1.5vw;
+  font-size: 16px;
   padding-left: 20px;
 }
 
@@ -59,9 +46,9 @@
 }
 
 .circle {
-	width: 150px;
-  height: 200px;
-  margin-top: 50px;
+	width: 100px;
+  height: auto;
+  margin: 5px;
   display: inline-block;
   position: relative;
   text-align: center;
@@ -72,13 +59,26 @@
 
 .circle span {
   position: absolute;
-  top: 110px;
+  top: 40px;
   left: 0;
   width: 100%;
   text-align: center;
-  font-size: 1.2vw;
+  font-size: 16px;
+}
+
+.comp-t {
+  text-align: justify;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.competence-texte, .competence-titre {
+  display: none;
 }
 
 .handheld_select {
-  display: none;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  color: RGB(240,240,240);
 }
