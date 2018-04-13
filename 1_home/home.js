@@ -6,17 +6,19 @@ $(document).ready(function()
 
   if($(document).width() >= 1280)
   {
-    $("#logo4").delay(1000).animate({left: $(window).width() /3.5}, 500);
+    var taille = $("#logo4").width();
+    var milieu = (($(window).width() - taille)/2)-10;
+    $("#logo4").delay(1000).animate({left:milieu}, 500);
   }
   else
   {
-    $("#logo4").delay(1000).animate({left: $(window).width() /5.4}, 500);
+    var taille = $("#logo4").width();
+    var milieu = (($(window).width() - taille)/2)-10;
+    $("#logo4").delay(1000).animate({left:milieu}, 500);
   }
-
-
   $("#logo5").delay(2000).css({'opacity':'1'});
 
-
+  /* Si cliques sur la page de garde, slide vers la partie presentation */
   $("#scroll").click(function()
   {
     var scroll = $("body").scrollTop();
@@ -27,6 +29,7 @@ $(document).ready(function()
     }
   });
 
+  /* Si cliques sur la flèche de scroll, slide vers la partie presentation */
   $("#logo4").click(function()
   {
     var scroll = $("body").scrollTop();
@@ -37,4 +40,12 @@ $(document).ready(function()
     }
   });
 
+  $(window).resize(function()
+  {
+    var taille = $("#logo4").width();
+    var milieu = (($(window).width() - taille)/2)-10;
+
+    $("#logo4").css({"left":"-60%"});
+    $("#logo4").css({"left":milieu}, 500);
+  });
 });
