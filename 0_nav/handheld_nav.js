@@ -1,13 +1,13 @@
 $(document).ready(function()
 {
-  if($(document).width() < 1280)
+  if($(document).width() < 1100)
   {
     $("#section-0").hide();
   }
 
   $(".menu-burger").click(function()
   {
-    if($(document).width() < 1280)
+    if($(document).width() < 1100)
     {
       this.classList.toggle("change");
       $("#section-0").toggle("slide");
@@ -16,7 +16,7 @@ $(document).ready(function()
 
   $("#section-0 a").click(function()
   {
-    if($(document).width() < 1280)
+    if($(document).width() < 1100)
     {
       $("#section-0").toggle("slide");
       $(".change").removeClass("change");
@@ -26,7 +26,7 @@ $(document).ready(function()
 
   $(window).resize(function()
   {
-    if($(document).width() >= 1280)
+    if($(document).width() >= 1100)
     {
       $("section-0").show();
     }
