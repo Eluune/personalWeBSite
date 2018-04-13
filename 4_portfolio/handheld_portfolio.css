@@ -13,18 +13,22 @@
 }
 
 .portfolio-titre-1, .portfolio-titre-2 {
-  text-align: center;
+  text-align: left;
   color: RGB(240,240,240);
   font-size: 20px;
-  order: 0;
+  order: 1;
+  padding: 15px;
+  width: 80%;
+  margin: auto
 }
 
 .portfolio-image-1, .portfolio-image-2 {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
-  order: 1;
+  height: 400px;
+  order: 0;
+  margin: 40px auto 0px auto;
 }
 
 .portfolio-texte-1, .portfolio-texte-2 {
@@ -33,6 +37,8 @@
   text-align: justify;
   font-size: 16px;
   padding: 15px;
+  width: 80%;
+  margin: auto
 }
 
 #interface {
@@ -45,4 +51,8 @@
   background-image: url(../images/mario.png);
   background-size: cover;
   background-position: center;
+}
+
+#section-4 hr {
+  display: none;
 }

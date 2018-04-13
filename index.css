@@ -46,5 +46,14 @@ hr {
 }
 
 .section {
-  display: none;
+  //display: none;
+}
+
+.section {
+  display: block;
+  width: 100%;
+  text-align: right;
+  margin-left: -40px;
+  padding-top: 20px;
+  color: RGB(255,65,66);
 }

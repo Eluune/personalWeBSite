@@ -27,7 +27,7 @@ $(document).ready(function()
     if(position < 530)
     {
       $("#section-0 div ul li a").removeClass("active");
-      $("#S0").addClass("active");
+      $("#S1").addClass("active");
     }
 
     if(position >= 530 && position < 1800)

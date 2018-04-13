@@ -1,8 +1,8 @@
 <div id="section-2">
+
+  <h1 class="section">A Propos</h1>
+
   <div id="presentation">
-
-    <h1 class="section">A Propos</h1>
-
     <div id="presentation-image">
       <img src="images/dessin.png" alt="">
     </div>
