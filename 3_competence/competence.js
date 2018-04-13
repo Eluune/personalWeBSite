@@ -1,28 +1,26 @@
 $(document).ready(function()
 {
-  $("#c-0").css({"display":"block"});
+  $(".comp-t").hide();
 
   $(".circle").click(function()
   {
     var id = $(this).attr('id'); // On recupère l'ID
     id = id.substr(7,8);
-    //console.log(id);
 
-    $(".comp-texte").slideUp('slow'); // Ferme tous les liens
-    $(".comp-titre").slideUp('slow');
+    $(".comp-t").slideUp('slow');
+    $(".circle").children("span").css({"color":"RGB(240,240,240)"});
 
-    if($("#c-"+id).css("display") == "none")
+    if($("#ce-"+id).css("display") == "none")
     {
-      $("#c-"+id).slideDown('slow'); // On affiche si Invisible
-      $("#ct-"+id).slideDown('slow');
+      $("#ce-"+id).slideDown(1000);
+      $(this).children("span").css({"color":"RGB(255,65,66)"});
     }
     else
     {
-      $("#c-"+id).slideUp('slow'); // On enleve si Visible
-      $("#ct-"+id).slideUp('slow');
+      $("#ce-"+id).slideUp(1000);
+      $(this).children("span").css({"color":"RGB(240,240,240)"});
     }
   });
-
 });
 
 $(document).ready(function(){
@@ -35,45 +33,59 @@ $(document).ready(function(){
   	}
   }
 
-  $('#circle-a').circleProgress({
+  $('.circle-100').circleProgress({
+  	value : 1.00,
+  	fill: {
+  		color: '#2ecc71'
+  	}
+  });
+
+  $('.circle-95').circleProgress({
+  	value : 0.95,
+  	fill: {
+  		color: '#2ecc71'
+  	}
+  });
+
+  $('.circle-90').circleProgress({
   	value : 0.90,
   	fill: {
-  		color: '#008290'
+  		color: '#27ae60'
   	}
   });
 
-  $('#circle-b').circleProgress({
+  $('.circle-85').circleProgress({
   	value : 0.85,
   	fill: {
-  		color: '#E64142'
+  		color: '#f1c40f'
   	}
   });
 
-  $('#circle-c').circleProgress({
-  	value : 0.85,
-  	fill: {
-  		color: '#008290'
-  	}
-  });
-
-  $('#circle-d').circleProgress({
-  	value : 0.70,
-  	fill: {
-  		color: '#E64142'
-  	}
-  });
-
-  $('#circle-e').circleProgress({
+  $('.circle-80').circleProgress({
   	value : 0.80,
   	fill: {
-  		color: '#008290'
+  		color: '#f39c12'
   	}
   });
 
-  $('#circle-f').circleProgress({
-    value : 0.80,
+  $('.circle-75').circleProgress({
+    value : 0.75,
     fill: {
-      color: '#E64142'
+      color: '#e67e22'
+    }
+  });
+
+  $('.circle-70').circleProgress({
+    value : 0.70,
+    fill: {
+      color: '#d35400'
+    }
+  });
+
+  $('.circle-65').circleProgress({
+    value : 0.65,
+    fill: {
+      color: '#e74c3c'
     }
   });
 });

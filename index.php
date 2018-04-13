@@ -15,6 +15,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Aloïs Petit</title>
 
+    <!-- Bdd -->
+    <?php require("config.php"); ?>
+
     <!-- Css -->
     <link media="screen and (min-width: 1100px)" rel="stylesheet" href="index.css">
     <link media="screen and (max-width: 1100px)" rel="stylesheet" href="handheld_index.css">

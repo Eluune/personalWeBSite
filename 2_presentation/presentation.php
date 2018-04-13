@@ -1,4 +1,11 @@
 <div id="section-2">
+  <?php
+    global $bdd;
+    $requete="SELECT presentation from presentation";
+    $resultats=$bdd->query($requete);
+    $ligne=$resultats->fetch(PDO::FETCH_OBJ);
+    $resultats->closeCursor();
+  ?>
 
   <h1 class="section">A Propos</h1>
 
@@ -10,9 +17,7 @@
     <div id="presentation-contenu">
 
       <div id="presentation-texte">
-        <p>
-          J'ai commencé la programmation en autodidacte pour des projets personnels et me voilà aujourd'hui en formation à l'IUT Métiers du Multimédia et de l'Internet au Puy en Velay pour que l'informatique devienne mon métier. Spécialisé dans le Développement Web, je recherche perpétuellement à développer mes compétences et apprendre de chacun de mes projets.
-        </p>
+        <p><?php echo($ligne->presentation); ?></p>
       </div>
 
       <h1 class="section">Contact</h1>
