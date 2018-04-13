@@ -21,6 +21,7 @@
 
     <link media="screen and (min-width: 1100px)" rel="stylesheet" href="0_nav/nav.css">
     <link media="screen and (max-width: 1100px)" rel="stylesheet" href="0_nav/handheld_nav.css">
+    <link media="screen and (orientation: landscape) and (max-width: 1100px)" rel="stylesheet" href="0_nav/landscape_nav.css">
 
     <link media="screen and (min-width: 1100px)" rel="stylesheet" href="1_home/home.css">
     <link media="screen and (max-width: 1100px)" rel="stylesheet" href="1_home/handheld_home.css">
