@@ -75,3 +75,12 @@
   border: none;
   cursor: pointer;
 }
+
+.section {
+  display: block;
+  width: 100%;
+  text-align: right;
+  margin-left: -40px;
+  padding-top: 20px;
+  color: RGB(240,240,240);
+}

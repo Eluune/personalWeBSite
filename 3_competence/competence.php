@@ -1,5 +1,6 @@
 <div id="section-3">
 
+  <h1 class="section">Compétences</h1>
   <div class="handheld_select">Sélectionner une compétence</div>
 
   <div class="competence">

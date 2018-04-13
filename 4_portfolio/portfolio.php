@@ -1,5 +1,7 @@
 <div id="section-4">
 
+  <h1 class="section">Portfolio</h1>
+
   <div class="portfolio">
     <div class="portfolio-titre-1">
       Interface

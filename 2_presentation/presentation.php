@@ -1,6 +1,8 @@
 <div id="section-2">
   <div id="presentation">
 
+    <h1 class="section">A Propos</h1>
+
     <div id="presentation-image">
       <img src="images/dessin.png" alt="">
     </div>
@@ -12,6 +14,8 @@
           J'ai commencé la programmation en autodidacte pour des projets personnels et me voilà aujourd'hui en formation à l'IUT Métiers du Multimédia et de l'Internet au Puy en Velay pour que l'informatique devienne mon métier. Spécialisé dans le Développement Web, je recherche perpétuellement à développer mes compétences et apprendre de chacun de mes projets.
         </p>
       </div>
+
+      <h1 class="section">Contact</h1>
 
       <div id="presentation-infos">
         <table>
