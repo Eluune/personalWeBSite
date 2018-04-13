@@ -16,23 +16,23 @@
     <title>Portfolio - Aloïs Petit</title>
 
     <!-- Css -->
-    <link media="screen and (min-width: 1280px)" rel="stylesheet" href="index.css">
-    <link media="screen and (max-width: 1280px)" rel="stylesheet" href="handheld_index.css">
+    <link media="screen and (min-width: 1100px)" rel="stylesheet" href="index.css">
+    <link media="screen and (max-width: 1100px)" rel="stylesheet" href="handheld_index.css">
 
-    <link media="screen and (min-width: 1280px)" rel="stylesheet" href="0_nav/nav.css">
-    <link media="screen and (max-width: 1280px)" rel="stylesheet" href="0_nav/handheld_nav.css">
+    <link media="screen and (min-width: 1100px)" rel="stylesheet" href="0_nav/nav.css">
+    <link media="screen and (max-width: 1100px)" rel="stylesheet" href="0_nav/handheld_nav.css">
 
-    <link media="screen and (min-width: 1280px)" rel="stylesheet" href="1_home/home.css">
-    <link media="screen and (max-width: 1280px)" rel="stylesheet" href="1_home/handheld_home.css">
+    <link media="screen and (min-width: 1100px)" rel="stylesheet" href="1_home/home.css">
+    <link media="screen and (max-width: 1100px)" rel="stylesheet" href="1_home/handheld_home.css">
 
-    <link media="screen and (min-width: 1280px)" rel="stylesheet" href="2_presentation/presentation.css">
-    <link media="screen and (max-width: 1280px)" rel="stylesheet" href="2_presentation/handheld_presentation.css">
+    <link media="screen and (min-width: 1100px)" rel="stylesheet" href="2_presentation/presentation.css">
+    <link media="screen and (max-width: 1100px)" rel="stylesheet" href="2_presentation/handheld_presentation.css">
 
-    <link media="screen and (min-width: 1280px)" rel="stylesheet" href="3_competence/competence.css">
-    <link media="screen and (max-width: 1280px)" rel="stylesheet" href="3_competence/handheld_competence.css">
+    <link media="screen and (min-width: 1100px)" rel="stylesheet" href="3_competence/competence.css">
+    <link media="screen and (max-width: 1100px)" rel="stylesheet" href="3_competence/handheld_competence.css">
 
-    <link media="screen and (min-width: 1280px)" rel="stylesheet" href="4_portfolio/portfolio.css">
-    <link media="screen and (max-width: 1280px)" rel="stylesheet" href="4_portfolio/handheld_portfolio.css">
+    <link media="screen and (min-width: 1100px)" rel="stylesheet" href="4_portfolio/portfolio.css">
+    <link media="screen and (max-width: 1100px)" rel="stylesheet" href="4_portfolio/handheld_portfolio.css">
 
   </head>
 

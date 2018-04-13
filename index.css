@@ -16,12 +16,6 @@ body, html {
   background-attachment: local;
 }
 
-#background {
-  position: absolute;
-  top: 70vh;
-  width: 50%;
-}
-
 a {
   text-decoration: none;
   color: RGB(200,200,200);
