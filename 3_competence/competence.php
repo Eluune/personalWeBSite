@@ -23,7 +23,6 @@
 
   <div class="competence">
     <div class="competence-gauche">
-      <p>Compétences</p>
     </div>
 
     <div class="competence-droite">
