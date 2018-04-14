@@ -20,6 +20,7 @@
   top: 2%;
   left: -60%;
   width: 40%;
+  max-width: 700px;
   -webkit-transition: all 2s;
   z-index: 1;
 }
@@ -29,6 +30,7 @@
   top: 2%;
   left: 30%;
   width: 40%;
+  max-width: 700px;
   -webkit-transition: all 3s;
   opacity: 0;
 }
