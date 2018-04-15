@@ -42,12 +42,6 @@
   box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.5);
 }
 
-#interface {
-  background-image: url(../images/interface.svg);
-  background-size: cover;
-  background-position: center;
-}
-
 .portfolio-titre-2 {
   position: absolute;
   top: 40%;
@@ -79,8 +73,36 @@
   box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.5);
 }
 
-#mario {
-  background-image: url(../images/mario.png);
-  background-size: cover;
-  background-position: center;
+.portfolio-description {
+  display: none;
+  width: 40%;
+  height: 100%;
+  background: RGBA(25,25,25,0.85);
+  color: RGB(240,240,240);
+}
+
+.portfolio-description p {
+  width: 90%;
+  padding: 5%;
+  font-size: 18px;
+}
+
+.portfolio-description button {
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #edeff0;
+  background-color: RGBA(0,0,0,0);
+  color: RGB(240,240,240);
+  text-decoration: none;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 20px;
+  width: 30%;
+  left: 5%;
+}
+
+.portfolio-description button:hover {
+  background-color: RGBA(255,65,66,0.8);
+  transition: 1s;
 }

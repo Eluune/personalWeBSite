@@ -54,5 +54,6 @@
     <script src="3_competence/competence.js" type="text/javascript"></script>
     <script src="3_competence/handheld_competence.js" type="text/javascript"></script>
     <script src="3_competence/circle-progress.js" type="text/javascript"></script>
+    <script src="4_portfolio/portfolio.js" type="text/javascript"></script>
   </body>
 </html>

@@ -16,20 +16,27 @@
 
   <?php for($i=0 ; $i < $ligne->nbProjet ; $i++): ?>
     <?php
-      if($i % 2 == 0)
-      {
-        $position = true; // texte à gauche et image à droite
-      }
-      else
-      {
-        $position = false;
-      }
+      if($i % 2 == 0){ $position = true; } // texte à gauche et image à droite
+      else { $position = false; }
     ?>
 
     <div class="portfolio">
-      <div class="portfolio-titre-<?php if($position) { echo("1"); } else { echo("2"); } ?>"> <?php echo($tableau[$i]->nom); ?> <hr></div>
-      <div class="portfolio-texte-<?php if($position) { echo("1"); } else { echo("2"); } ?>"> <p> <?php echo($tableau[$i]->description); ?> </p> </div>
-      <a href="<?php echo($tableau[$i]->lien); ?>"><div class="portfolio-image-<?php if($position) { echo("1"); } else { echo("2"); } ?>" style="background-image: url('<?php echo($tableau[$i]->image); ?>'); background-size: cover; background-position: center;"> </div></a>
+      <div class="portfolio-titre-<?php if($position) { echo("1"); } else { echo("2"); } ?>">
+        <?php echo($tableau[$i]->nom); ?>
+        <hr>
+      </div>
+
+      <div class="portfolio-texte-<?php if($position) { echo("1"); } else { echo("2"); } ?>">
+        <p> <?php echo($tableau[$i]->description); ?> </p>
+      </div>
+
+      <div class="portfolio-image-<?php if($position) { echo("1"); } else { echo("2"); } ?>" style="background-image: url('<?php echo($tableau[$i]->image); ?>'); background-size: cover; background-position: center;">
+        <div class="portfolio-description">
+          <p><?php echo($tableau[$i]->information); ?></p>
+          <a href="<?php echo($tableau[$i]->lien); ?>"><button type="button" name="button">Voir le Projet</button></a>
+        </div>
+      </div>
+
     </div>
   <?php endFor; ?>
 </div>
