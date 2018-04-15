@@ -66,13 +66,20 @@
   cursor: pointer;
 }
 
+.circle:hover {
+  color: RGB(255,65,66);
+}
+
 .circle span {
   position: absolute;
   top: 110px;
   left: 0;
-  width: 100%;
+  width: 90%;
   text-align: center;
   font-size: 1.2vw;
+  background: RGB(10,10,10);
+  border-radius: 10px;
+  padding: 0;
 }
 
 .handheld_select {

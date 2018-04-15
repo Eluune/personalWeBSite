@@ -79,3 +79,15 @@
 #presentation-bouton a {
   color: RGB(25,25,25);
 }
+.pictogramme {
+  width: 20px;
+  display: inline-block;
+}
+
+.tooltip img {
+  display: inline-block;
+}
+
+.tooltip span {
+  display: none;
+}

@@ -1,6 +1,7 @@
 #section-2 {
   position: relative;
   width: 100%;
+  overflow: visible;
 }
 
 #presentation {
@@ -10,6 +11,7 @@
   height: 100%;
   margin-bottom: 100px;
   margin-top: 100px;
+  overflow: visible;
 }
 
 #presentation-image {
@@ -19,11 +21,11 @@
 
 #presentation-image img {
   width: 80%;
-
 }
 
 #presentation-contenu {
   width: 50%;
+  overflow: visible;
 }
 
 #presentation-texte p {
@@ -45,6 +47,7 @@
   font-size: 20px;
   text-align: justify;
   color: RGB(240,240,240);
+  overflow: visible;
 }
 
 #presentation-infos hr {
@@ -67,6 +70,70 @@
   cursor: pointer;
 }
 
+#presentation-bouton:hover>a, #presentation-bouton:hover {
+  background: RGB(75,75,75);
+  color: RGB(240,240,240);
+}
+
 #presentation-bouton a {
   color: RGB(25,25,25);
+}
+
+.pictogramme {
+  width: 40px;
+}
+
+#picto {
+  display: flex;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    //border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    overflow: visible;
+    top: 15px;
+    left: 50px;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    //visibility: hidden;
+    //display: inline-block;
+    overflow: visible;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    display: inline-block;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 18%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip .tooltiptext {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+    opacity: 1;
 }

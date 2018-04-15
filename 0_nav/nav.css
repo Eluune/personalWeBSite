@@ -25,14 +25,14 @@
   display: block;
   text-decoration: none;
   color: RGB(240,240,240);
-  border-bottom: 4px solid RGB(25,25,25);
+  border-bottom: 4px solid RGBA(25,25,25,0);
   z-index: 100;
 }
 
 #nav ul li a:hover {
-  border-bottom: 4px solid RGB(255,65,66);
+  border-bottom: 4px solid RGBA(255,65,66,.8);
 }
 
 .active {
-  border-bottom: 4px solid RGB(255,65,66) !important;
+  border-bottom: 4px solid RGBA(255,65,66,.8) !important;
 }
