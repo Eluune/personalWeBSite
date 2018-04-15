@@ -57,7 +57,7 @@
 
         <table>
           <tr>
-            <td id="presentation-btn-td"><button id="presentation-bouton" type="button" name="button">VOIR MON CV</button></td>
+            <td id="presentation-btn-td"><button id="presentation-bouton" type="button" name="button"> <a target = "_blank" href="images/CV.pdf">VOIR MON CV</a> </button></td>
           </tr>
         </table>
       </div>

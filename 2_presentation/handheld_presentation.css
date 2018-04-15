@@ -75,3 +75,7 @@
   border: none;
   cursor: pointer;
 }
+
+#presentation-bouton a {
+  color: RGB(25,25,25);
+}
